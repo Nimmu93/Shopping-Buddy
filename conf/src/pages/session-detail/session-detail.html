@@ -8,9 +8,6 @@
   <img [src]= "session.profilePic" alt="item pic">
   <h1>{{session.name}}</h1>
 
-  <h4 *ngFor="let contacts of session.contacts">
-    {{contacts.name}}
-  </h4>
 
   <p>
     {{session.timeStart}} - {{session.timeEnd}}
