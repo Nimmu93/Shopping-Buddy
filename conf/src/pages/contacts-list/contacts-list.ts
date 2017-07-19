@@ -33,7 +33,7 @@ export class contactsListPage {
   queryText = '';
   segment = 'all';
   excludeTracks: any = [];
-  shownItems: any = [];
+  shownContacts: any = [];
   groups: any = [];
   confDate: string;
 
