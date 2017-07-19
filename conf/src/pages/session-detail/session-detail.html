@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Items</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img [src]= "session.profilePic" alt="item pic">
+  <h1>{{session.name}}</h1>
+
+  <h4 *ngFor="let contacts of session.contacts">
+    {{contacts.name}}
+  </h4>
+
+  <p>
+    {{session.timeStart}} - {{session.timeEnd}}
+  </p>
+
+  <p>{{session.location}}</p>
+
+  <p>{{session.description}}</p>
+</ion-content>

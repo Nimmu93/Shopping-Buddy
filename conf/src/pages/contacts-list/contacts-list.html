@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar no-border-bottom>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-segment [(ngModel)]="segment" (ionChange)="updatecontacts()">
+      <ion-segment-button value="all">
+        All
+      </ion-segment-button>
+      <ion-segment-button value="favorites">
+        Favorites
+      </ion-segment-button>
+    </ion-segment>
+
+   
+  </ion-navbar>
+  <ion-toolbar no-border-top>
+    <ion-searchbar color="primary"
+                   [(ngModel)]="queryText"
+                   (ionInput)="updateitems()"
+                   placeholder="Search">
+    </ion-searchbar>
+  </ion-toolbar>
+
+  
+</ion-header>
+
+<ion-content class="outer-content contacts-list">
+  <ion-list [virtualScroll]="contacts">
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
+
+        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let contacts" approxItemHeight="457px">
+
+          <ion-card class="contacts-card">
+            <ion-card-header>
+              <button ion-item (click)="goToSessionDetail(session)" >
+                <ion-avatar item-start >
+                  <img [src]="contacts.profilePic" alt="contacts profile pic">
+                </ion-avatar>
+                {{contacts.name}}
+              </button>
+              <ion-item-options>
+          <button ion-button color="favorite" (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
+            Favorite
+          </button>
+          <button ion-button color="danger" (click)="removeFavorite(slidingItem, session, 'Remove Favorite')" *ngIf="segment === 'favorites'">
+            Remove
+          </button>
+        </ion-item-options>
+            </ion-card-header>
+
+            
+
+          </ion-card>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+</ion-content>
