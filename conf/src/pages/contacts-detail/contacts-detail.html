@@ -2,22 +2,23 @@
   <ion-navbar>
     <ion-title>{{contacts.name}}</ion-title>
   </ion-navbar>
+     
 </ion-header>
 
 <ion-content padding class="contacts-detail">
 
-  <div text-center>
-    <img [src]="contacts.profilePic" [alt]="contacts.name"><br>
-
-    
-  </div>
+<div text-left>
+  <img [src]="contacts.profilePic" [alt]="contacts.name"><br>
+</div>
 
   <h6>{{contacts.name}}</h6>
   <h6>{{contacts.about}}</h6>
   <h6>{{contacts.location}}</h6>
   <h6>{{contacts.email}}</h6>
 
-  <button>send request </button>
-  <button>accept request</button>
+
+  <button ion-button >
+    <h5>Send request</h5>
+  </button>
 
 </ion-content>
