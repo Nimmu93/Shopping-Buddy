@@ -13,51 +13,50 @@
       </ion-segment-button>
     </ion-segment>
 
+   
   </ion-navbar>
-
   <ion-toolbar no-border-top>
     <ion-searchbar color="primary"
                    [(ngModel)]="queryText"
-                   (ionInput)="updatecontacts()"
+                   (ionInput)="updateitems()"
                    placeholder="Search">
     </ion-searchbar>
   </ion-toolbar>
+
+  
 </ion-header>
 
-<ion-content>
-  
+<ion-content class="outer-content contacts-list">
+  <ion-list [virtualScroll]="contacts">
+    <ion-grid fixed>
+      <ion-row align-items-stretch>
 
-  <ion-list #contactsList [hidden]="shownContacts == 0">
+        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let contacts" approxItemHeight="457px">
 
-    <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
-
-      <ion-item-sliding *ngFor="let contact of group.contacts" #slidingItem [attr.track]="contact.tracks[0] | lowercase" [hidden]="contact.hide">
-
-        <button ion-contact (click)="goToContactDetail(contact)">
-          <img [src]= "contacts.profilePic" alt="contactpic">
-          <h3>{{contacts.name}}</h3>
-
-        </button>
-
-        <ion-item-options>
-          <button ion-button color="favorite" (click)="addFavorite(slidingItem, contact)" *ngIf="segment === 'all'">
+          <ion-card class="contacts-card">
+            <ion-card-header>
+              <button ion-item (click)="goToSessionDetail(session)" >
+                <ion-avatar item-start >
+                  <img [src]="contacts.profilePic" alt="contacts profile pic">
+                </ion-avatar>
+                {{contacts.name}}
+              </button>
+              <ion-item-options>
+          <button ion-button color="favorite" (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
             Favorite
           </button>
-          <button ion-button color="danger" (click)="removeFavorite(slidingItem, contact, 'Remove Favorite')" *ngIf="segment === 'favorites'">
+          <button ion-button color="danger" (click)="removeFavorite(slidingItem, session, 'Remove Favorite')" *ngIf="segment === 'favorites'">
             Remove
           </button>
         </ion-item-options>
+            </ion-card-header>
 
-      </ion-item-sliding>
+            
 
-    </ion-item-group>
+          </ion-card>
 
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-list>
-
-  <ion-list-header [hidden]="shownContacts < 0">
-      No Contacts Found
-  </ion-list-header>
-
-  
-
 </ion-content>

@@ -29,6 +29,21 @@ export class UserData {
     }
   };
 
+  hasFavorite1(contactsName: string): boolean {
+    return (this._favorites.indexOf(contactsName) > -1);
+  };
+
+  addFavorite1(contactsName: string): void {
+    this._favorites.push(contactsName);
+  };
+
+  removeFavorite1(contactsName: string): void {
+    let index = this._favorites.indexOf(contactsName);
+    if (index > -1) {
+      this._favorites.splice(index, 1);
+    }
+  };
+
   login(username: string): void {
     this.storage.set(this.HAS_LOGGED_IN, true);
     this.setUsername(username);
