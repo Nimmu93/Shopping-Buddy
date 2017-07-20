@@ -7,11 +7,17 @@
 <ion-content padding class="contacts-detail">
 
   <div text-center>
-    <img [src]="contacts.profilePic" [alt]="speaker.name"><br>
+    <img [src]="contacts.profilePic" [alt]="contacts.name"><br>
 
     
   </div>
 
-  <p>{{contacts.about}}</p>
+  <h6>{{contacts.name}}</h6>
+  <h6>{{contacts.about}}</h6>
+  <h6>{{contacts.location}}</h6>
+  <h6>{{contacts.email}}</h6>
+
+  <button>send request </button>
+  <button>accept request</button>
 
 </ion-content>

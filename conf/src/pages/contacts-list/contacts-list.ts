@@ -30,10 +30,10 @@ export class contactsListPage {
     });
   }
 
-  goToSessionDetail(session: any) {
-    this.navCtrl.push(SessionDetailPage, {
-      name: session.name,
-      session: session
+  goToContactDetail(contacts: any) {
+    this.navCtrl.push(ContactsDetailPage, {
+      name: contacts.name,
+      contacts: contacts
     });
   }
 
