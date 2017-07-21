@@ -128,6 +128,11 @@ export class ConferenceData {
       });
     });
   }
+  getdeals() {
+    return this.load().map((data: any) => {
+      return data.deals;
+    });
+  }
 
   getTracks() {
     return this.load().map((data: any) => {

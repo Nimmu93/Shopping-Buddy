@@ -305,6 +305,20 @@
     "phone": "+1-541-754-3010"
   }],
 
+  "deals":[{
+    "name": "leeks",
+    "timeStart": "Rs.80.00/kg",
+    "timeEnd": "Rs.90.00/kg",
+    "Pic": "assets/img/speakers/bear.jpg",
+    "date": "2017/07/28"
+  },{
+    "name": "Apple",
+    "timeStart": "Rs.20.00/kg",
+    "timeEnd": "Rs.90.00/kg",
+    "profilePic": "assets/img/items/apple.png",
+    "location": "S5,R2",
+    "tracks": ["Fruits"]
+  }],
 
   "map": [{
     "name": "Monona Terrace Convention Center",
