@@ -3,7 +3,9 @@
   "items": [{
     "date": "2047-05-17",
     "groups": [{
+
       "time": "Vegetables",
+
       "sessions": [{
         "name": "Carrot",
         "timeStart": "Rs.40.00/kg",
@@ -28,7 +30,9 @@
         "tracks": ["Vegetables"]
       }]
     }, {
+
       "time": "Fruits",
+
       "sessions": [{
         "name": "orange",
         "timeStart": "Rs.180.00/kg",
@@ -52,38 +56,28 @@
         "tracks": ["Fruits"]
       }]
     }, {
+
       "time": "Biscuits",
+
       "sessions": [{
-        "name": "leeks",
+        "name": "Britania Good Day",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "profilePic": "assets/img/items/bis.png",
         "location": "S2,R1",
         "tracks": ["Biscuits"]
       }, {
-        "name": "leeks",
+        "name": "Maliban Gold Marie",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Biscuits"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Biscuits"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "profilePic": "assets/img/items/marie.png",
         "location": "S2,R1",
         "tracks": ["Biscuits"]
       }]
     }, {
+
       "time": "Sanitory itmes",
+
       "sessions": [{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
@@ -91,14 +85,7 @@
         "profilePic": "assets/img/speakers/bear.jpg",
         "location": "S2,R1",
         "tracks": ["Sanitory itmes"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Sanitory itmes"]
-      }, {
+      },{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
@@ -107,17 +94,21 @@
         "tracks": ["Sanitory itmes"]
       }]
     }, {
+
       "time": "Milk Powder",
+
       "sessions": [{
-        "name": "leeks",
+        "name": "Kabrita Milk Powder",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "profilePic": "assets/img/items/Powder.png",
         "location": "S2,R1",
         "tracks": ["Milk Powder"]
       }]
     }, {
+
       "time": "Kids Items",
+
       "sessions": [{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
@@ -125,14 +116,7 @@
         "profilePic": "assets/img/speakers/bear.jpg",
         "location": "S2,R1",
         "tracks": ["Kids Items"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Kids Items"]
-      }, {
+      },{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
@@ -141,7 +125,9 @@
         "tracks": ["Kids Items"]
       }]
     }, {
+
       "time": "Raw food Items",
+
       "sessions": [{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
@@ -149,14 +135,7 @@
         "profilePic": "assets/img/speakers/bear.jpg",
         "location": "S2,R1",
         "tracks": ["Raw food Items"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Raw food Items"]
-      }, {
+      },{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
@@ -165,7 +144,9 @@
         "tracks": ["Raw food Items"]
       }]
     }, {
+
       "time": "Stationary",
+
       "sessions": [{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
@@ -173,21 +154,7 @@
         "profilePic": "assets/img/speakers/bear.jpg",
         "location": "S2,R1",
         "tracks": ["Stationary"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Stationary"]
-      }, {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Stationary"]
-      }, {
+      },{
         "name": "leeks",
         "timeStart": "Rs.80.00/kg",
         "timeEnd": "Rs.90.00/kg",
@@ -290,7 +257,7 @@
     "name": "leeks",
     "timeStart": "Rs.80.00/kg",
     "timeEnd": "Rs.90.00/kg",
-    "Pic": "assets/img/speakers/bear.jpg",
+    "Pic": "assets/img/speakers/leeks.jpg",
     "date": "2017/07/28"
   },{
     "name": "Apple",

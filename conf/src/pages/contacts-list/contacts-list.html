@@ -32,13 +32,13 @@
     <ion-grid fixed>
       <ion-row align-items-stretch>
 
-        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let contacts" approxItemHeight="457px">
+        <ion-col col-12 col-sm-6 align-self-stretch align-self-center *virtualItem="let contacts" approxItemHeight="457px">
 
           <ion-card class="contacts-card">
             <ion-card-header>
               <button ion-item (click)="goToContactDetail(contacts)" >
                 <ion-avatar item-start >
-                  <img [src]="contacts.profilePic" alt="contacts profile pic">
+                  <img [src]="contacts.profilePic" alt="contacts profile pic" style="width:45px">
                 </ion-avatar>
                 {{contacts.name}}
               </button>
