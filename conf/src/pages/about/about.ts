@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'about.html'
 })
 export class AboutPage {
-  conferenceDate = '2047-05-17';
+  conferenceDate = '2017-07-28';
 
   constructor(public nav: NavController) { }
 
