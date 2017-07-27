@@ -321,9 +321,9 @@
   }],
 
   "map": [{
-    "name": "Monona Terrace Convention Center",
-    "lat": 43.071584,
-    "lng": -89.380120,
+    "name": "University of Colombo School of Computing",
+    "lat": 6.902229,
+    "lng": 79.861379,
     "center": true
   }, {
     "name": "Ionic HQ",
