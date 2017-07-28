@@ -4,28 +4,42 @@
     "date": "2047-05-17",
     "groups": [{
 
+      "time": "Electronics",
+
+      "sessions": [{
+        "name": "Philiphs Self clean Variable steam settings Iron",
+        "timeStart": "LKR.4500.00/kg",
+        "profilePic": "assets/img/new/e5.jpeg",
+        "location": "S2,R1",
+        "tracks": ["Electronics"]
+      },{
+        "name": "Philiphs White and light blue 1000 W Hair Dryer",
+        "timeStart": "LKR.2500.00/kg",
+        "profilePic": "assets/img/new/e6.jpeg",
+        "location": "S2,R1",
+        "tracks": ["Electronics"]
+      }]
+    }, {
+
       "time": "Vegetables",
 
       "sessions": [{
-        "name": "Carrot",
-        "timeStart": "Rs.40.00/kg",
-        "timeEnd": "Rs.50.00/kg",
+        "name": "Nuwara Eliya Carrot",
+        "timeStart": "LKR.40.00/kg",
         "profilePic": "assets/img/items/Carrot.png",
         "location": "S1,R2",
         "tracks": ["Vegetables"]
       }, {
-        "name": "Pumpkin",
-        "timeStart": "Rs.30.00/kg",
-        "timeEnd": "Rs.50.00/kg",
-        "profilePic": "assets/img/items/Pumpkin.png",
+        "name": "Red chilli - nuwara eliya Chilli",
+        "timeStart": "LKR.30.00/kg",
+        "profilePic": "assets/img/new/v2.jpg",
         "location": "S1,R1",
         "tracks": ["Vegetables"]
       },
       {
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/items/leeks.png",
+        "name": "Fresh Beans",
+        "timeStart": "LKR.90.00/kg",
+        "profilePic": "assets/img/new/5.jpg",
         "location": "S2,R1",
         "tracks": ["Vegetables"]
       }]
@@ -34,23 +48,20 @@
       "time": "Fruits",
 
       "sessions": [{
-        "name": "orange",
-        "timeStart": "Rs.180.00/kg",
-        "timeEnd": "Rs.190.00/kg",
-        "profilePic": "assets/img/items/oranges.png",
+        "name": "Fresh Orange",
+        "timeStart": "LKR.15.00",
+        "profilePic": "assets/img/new/oranges.png",
         "location": "S5,R1",
         "tracks": ["Fruits"]
       }, {
         "name": "Apple",
-        "timeStart": "Rs.20.00/kg",
-        "timeEnd": "Rs.90.00/kg",
+        "timeStart": "LKR.20.00",
         "profilePic": "assets/img/items/apple.png",
         "location": "S5,R2",
         "tracks": ["Fruits"]
       }, {
         "name": "Graphs",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.100.00/kg",
+        "timeStart": "LKR.500.00/kg",
         "profilePic": "assets/img/items/graph.png",
         "location": "S5,R3",
         "tracks": ["Fruits"]
@@ -61,37 +72,16 @@
 
       "sessions": [{
         "name": "Britania Good Day",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
+        "timeStart": "LKR.80.00",
         "profilePic": "assets/img/items/bis.png",
         "location": "S2,R1",
         "tracks": ["Biscuits"]
       }, {
         "name": "Maliban Gold Marie",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
+        "timeStart": "LKR.35.00",
         "profilePic": "assets/img/items/marie.png",
         "location": "S2,R1",
         "tracks": ["Biscuits"]
-      }]
-    }, {
-
-      "time": "Sanitory itmes",
-
-      "sessions": [{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Sanitory itmes"]
-      },{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Sanitory itmes"]
       }]
     }, {
 
@@ -99,68 +89,44 @@
 
       "sessions": [{
         "name": "Kabrita Milk Powder",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
+        "timeStart": "LKR.80.00/kg",
         "profilePic": "assets/img/items/Powder.png",
         "location": "S2,R1",
         "tracks": ["Milk Powder"]
       }]
     }, {
 
-      "time": "Kids Items",
+      "time": "Beverages",
 
       "sessions": [{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "name": "Lemon Squash Fruit Juice",
+        "timeStart": "LKR.210.00",
+        "profilePic": "assets/img/new/b1.jpg",
         "location": "S2,R1",
         "tracks": ["Kids Items"]
       },{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "name": "fizzy drinks Cola",
+        "timeStart": "LKR.190.00/kg",
+        "profilePic": "assets/img/new/b2.jpg",
         "location": "S2,R1",
         "tracks": ["Kids Items"]
       }]
     }, {
 
-      "time": "Raw food Items",
+      "time": "Meet",
 
       "sessions": [{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "name": "Fresh Pork",
+        "timeStart": "LKR.460.00/kg",
+        "profilePic": "assets/img/new/m2.jpg",
         "location": "S2,R1",
         "tracks": ["Raw food Items"]
       },{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
+        "name": "Fresh Beef",
+        "timeStart": "LKR.430.00/kg",
+        "profilePic": "assets/img/new/m3.jpg",
         "location": "S2,R1",
         "tracks": ["Raw food Items"]
-      }]
-    }, {
-
-      "time": "Stationary",
-
-      "sessions": [{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Stationary"]
-      },{
-        "name": "leeks",
-        "timeStart": "Rs.80.00/kg",
-        "timeEnd": "Rs.90.00/kg",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "location": "S2,R1",
-        "tracks": ["Stationary"]
       }]
     }]
   }],
